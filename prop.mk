@@ -85,7 +85,9 @@ dalvik.vm.heapgrowthlimit=192m \
 dalvik.vm.heapsize=512m \
 dalvik.vm.heaptargetutilization=0.75 \
 dalvik.vm.heapminfree=2m \
-dalvik.vm.heapmaxfree=8m
+dalvik.vm.heapmaxfree=8m \
+persist.sys.dalvik.hyperthreading=true \
+persist.sys.dalvik.multithread=true
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
