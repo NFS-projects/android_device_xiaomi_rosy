@@ -25,6 +25,17 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 # Inherit from rosy device
 $(call inherit-product, device/xiaomi/rosy/device.mk)
 
+# RiceDroid Spec
+RICE_MAINTAINER := NFS-Projects™
+RICE_CHIPSET := SDM450
+WITH_GMS := false
+SUSHI_BOOTANIMATION := 720
+TARGET_BUILD_GRAPHENEOS_CAMERA := false
+TARGET_ENABLE_BLUR := false
+TARGET_HAS_UDFPS := false
+TARGET_SUPPORTS_QUICK_TAP := false
+TARGET_FACE_UNLOCK_SUPPORTED := true
+
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := lineage_rosy
 PRODUCT_DEVICE := rosy
